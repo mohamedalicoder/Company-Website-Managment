@@ -1,4 +1,4 @@
-@extends('frontend.master')
+
 @section('title', 'Newsletter Us')
         <!-- Newsletter Start -->
         <div class="container-xxl bg-primary my-6 wow fadeInUp" data-wow-delay="0.1s">

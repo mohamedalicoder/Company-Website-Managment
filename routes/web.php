@@ -14,8 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
+Route::name('front.')->group( function () {
+        Route::view('/','frontend.index')->name('index');
+        Route::view('/about','frontend.about')->name('about');
+        Route::view('/service','frontend.services')->name('services');
+        Route::view('/contact','frontend.contact')->name('contact');
+
+});
+
+
+Route::name('admin.')->group( function () {
+    Route::view('/','admin.index')->name('index');
+
 });
 
 Route::get('/dashboard', function () {

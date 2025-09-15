@@ -12,17 +12,12 @@
         <div class="container-xxl position-relative p-0">
           @include('frontend.partials.navbar')
 
-         @include('frontend.index')
+         @yield('content')
+
         </div>
         <!-- Navbar & Hero End -->
 
 
-  @include('frontend.about')
-
-
-@include('frontend.newsletter')
-
-   @include('frontend.services')
 
 
         <!-- Features Start -->

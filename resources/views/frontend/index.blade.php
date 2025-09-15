@@ -1,6 +1,8 @@
 @extends('frontend.master')
-@section('title', 'Home')
-@section('home-active', 'active')
+
+@section('content')
+    {{-- محتوى صفحة الـ index فقط --}}
+
 
 
 <div class="container-xxl bg-primary hero-header">
@@ -20,3 +22,5 @@
         </div>
     </div>
 </div>
+
+@endsection
