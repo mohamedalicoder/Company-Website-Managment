@@ -24,7 +24,7 @@ Route::name('front.')->group( function () {
 
 
 Route::name('admin.')->group( function () {
-    Route::view('/','admin.index')->name('index');
+    Route::view('/admin','admin.index')->name('index');
 
 });
 

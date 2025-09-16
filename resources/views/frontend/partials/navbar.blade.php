@@ -12,6 +12,7 @@
               <a href="{{route('front.about')}}" class="nav-item nav-link @yield('about-active')">About</a>
               <a href="{{route('front.services')}}" class="nav-item nav-link @yield('service-active')">Service</a>
               <a href="{{route('front.contact')}}" class="nav-item nav-link @yield('contact-active')">Contact</a>
+              <a href="{{route('admin.index')}}" class="nav-item nav-link @yield('contact-active')">Dashboard</a>
           </div>
       </div>
   </nav>
